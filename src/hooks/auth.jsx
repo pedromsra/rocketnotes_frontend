@@ -38,7 +38,6 @@ function AuthProvider({ children }) {
     }
 
     async function updateProfile(user, avatarFile){
-        console.log(user)
         try {
             if(avatarFile !== null){
                 const fileUploadForm = new FormData();
